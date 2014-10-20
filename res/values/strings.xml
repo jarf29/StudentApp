@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudentApp</string>
+    <string name="notas">NOTAS</string>
+    <string name="promedio">PROM</string>
+    <string name="ingrese_la_sgte_info">Ingrese a siguiente información:</string>
+    <string name="Label_materias_en_notas">Materias</string>
+    <string name="Label_creditos_en_notas">Creditos</string>
+    <string name="Label_examenes_en_notas">Cantidad de examenes</string>
+    <string name="guardarMaterias">Guardar Materia</string>
+    <string name="verMaterias">Ver Materias</string>
+    <string name="notaFinal">Nota Final/Deseada</string>
+    <string name="guardarNotas">Guardar Notas</string>
+    <string name="calcularNotas">Calcular Notas</string>
+    <string name="calcularNotaFinal">Calcular Nota Final</string>
+    <string name="calcularPromAcum">Calcular Promedio</string>
+    <string name="erro_titile">Opps Sorry</string>
+    <string name="error_msg">Sorry, there was an error</string>
+    <string name="no_items">No Items to Display</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="8dip"
+    android:layout_marginRight="8dip"
+    android:background="@color/negro_fondo"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/prematerias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materias"
+            android:textColor="@color/blanco_letra"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner_materias_en_pre_materias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+     <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/creditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.18"
+            android:text="Creditos"
+            android:textColor="@color/blanco_letra"
+            android:textSize="20sp" />
+        
+         <EditText
+             android:id="@+id/campo_cred"
+             android:layout_width="98.0dip"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.13"
+             android:ems="10"
+             android:inputType="number" />
+
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boton_guardar_materias_en_pre_materias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/azul_boton"
+            android:onClick="guardarPreMaterias"
+            android:text="@string/guardarMaterias"
+            android:textColor="@color/blanco_letra"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/boton_ver_materias_en_pre_materias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="verMaterias"
+            android:text="@string/verMaterias"
+            android:textColor="@color/blanco_letra"
+            android:background="@color/azul_boton"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

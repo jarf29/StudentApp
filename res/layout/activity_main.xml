@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    tools:context="com.example.studentapp.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="fill_parent"
+        android:background="@color/negro_fondo"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
